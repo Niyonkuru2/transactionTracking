@@ -78,14 +78,6 @@ WalletApp is a financial management system designed to help users track income a
    - Frontend: [http://localhost:5173](http://localhost:5173)
    - Backend: [http://localhost:5000](http://localhost:5000)
 
----
-
-#### **Deployment**
-1. **Backend**:
-   - Host on Render or Fly.io.
-   - Configure environment variables for production.
----
-
 #### **API Endpoints**
 
 - **User Authentication**
