@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Ovo&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    font-family: 'Outfit', sans-serif;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Ovo', serif;
+  }
+  .toggle{
+    left: 5px;
+  }
