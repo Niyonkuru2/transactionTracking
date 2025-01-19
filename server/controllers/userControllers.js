@@ -83,7 +83,7 @@ const requestresetPassword = async(req,res)=>{
         return res.json({success:false,message:'User not found'});
       }
         const token = createToken(user._id);
-        const resetLink = `${process.env.FRONTEND_URL}/reset-password/${token}`;
+        const resetLink = `https://transactiontracking-frontend.onrender.com/reset-password/${token}`;
        //sending email with the reset link
         const transporter = nodemailer.createTransport({
             service:'gmail',
