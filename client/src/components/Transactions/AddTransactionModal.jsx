@@ -73,14 +73,14 @@ const AddTransactionModal = ({ isOpen, onClose, onSave }) => {
             {/* Transaction Type */}
             <div className="mb-4">
               <label htmlFor="type" className="block text-sm font-medium text-gray-700">
-                Transaction Type
+                Transaction Category
               </label>
               <select
                 id="type"
                 name="type"
                 value={formData.type}
                 onChange={handleChange}
-                className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+                 className="border border-gray-300 rounded-md shadow-sm px-4 py-2 mr-4 focus:ring-blue-500 focus:border-blue-500"
               >
                 <option value="Income">Income</option>
                 <option value="Expense">Expense</option>
@@ -97,7 +97,7 @@ const AddTransactionModal = ({ isOpen, onClose, onSave }) => {
                 name="account"
                 value={formData.account}
                 onChange={handleChange}
-                className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+                 className="border border-gray-300 rounded-md shadow-sm px-4 py-2 mr-4 focus:ring-blue-500 focus:border-blue-500"
               >
                 <option value="Bank">Bank</option>
                 <option value="Cash">Cash</option>
@@ -133,7 +133,7 @@ const AddTransactionModal = ({ isOpen, onClose, onSave }) => {
                 name="date"
                 value={formData.date}
                 onChange={handleChange}
-                className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+                 className="mt-1 border border-gray-300 rounded-md shadow-sm px-4 py-2 mr-4 focus:ring-blue-500 focus:border-blue-500"
                 required
               />
             </div>
