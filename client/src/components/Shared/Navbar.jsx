@@ -9,34 +9,34 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-blue-600 text-white shadow-md sticky top-0 z-10">
-      <div className="container mx-auto px-4 flex items-center justify-between h-16">
-        {/* Logo (Only for Desktop and Laptop) */}
-        <Link to="/" className="hidden lg:block text-lg font-bold left-10">
-          WalletApp
-        </Link>
+   <nav className="bg-blue-600 text-white shadow-md sticky top-0 z-10">
+  <div className="container mx-auto px-6 flex items-center justify-between h-16">
+    {/* Logo (Only for Desktop and Laptop) */}
+    <Link to="/" className="hidden lg:block text-lg font-bold ml-6">
+      WalletApp
+    </Link>
 
-        {/* Mobile Navigation */}
-        <div className="flex md:hidden w-full justify-between">
-          <p
-            className="cursor-pointer hover:text-blue-300 ml-auto"
-            onClick={handleLogout}
-          >
-            Logout
-          </p>
-        </div>
+    {/* Mobile Navigation */}
+    <div className="flex md:hidden w-full justify-between">
+      <p
+        className="cursor-pointer hover:text-blue-300 mr-6"
+        onClick={handleLogout}
+      >
+        Logout
+      </p>
+    </div>
 
-        {/* Desktop Navigation  */}
-        <div className="hidden lg:flex right-4">
-          <p
-            className="cursor-pointer hover:text-blue-300"
-            onClick={handleLogout}
-          >
-            Logout
-          </p>
-        </div>
-      </div>
-    </nav>
+    {/* Desktop Navigation */}
+    <div className="hidden lg:flex">
+      <p
+        className="cursor-pointer hover:text-blue-300 mr-6"
+        onClick={handleLogout}
+      >
+        Logout
+      </p>
+    </div>
+  </div>
+</nav>
   );
 };
 
