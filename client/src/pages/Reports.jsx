@@ -1,4 +1,4 @@
- import { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import axios from "axios";
 import Loading from "../components/Shared/Loader";
 import {toast} from "react-toastify"
@@ -19,8 +19,8 @@ const ReportsPage = () => {
           return;
         }
 
-        const response = await axios.get(${import.meta.env.VITE_BACKEND_URL}/api/transaction/all, {
-          headers: { Authorization: Bearer ${token} },
+        const response = await axios.get(`${import.meta.env.VITE_BACKEND_URL}/api/transaction/all`, {
+          headers: { Authorization: `Bearer ${token}` },
         });
 
         if (response.data.success) {
@@ -43,6 +43,7 @@ const ReportsPage = () => {
 
   return (
     <div className="p-6">
+   
       <ReportGenerator transactions={transactions} />
     </div>
   );
