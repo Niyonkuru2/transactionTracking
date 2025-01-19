@@ -66,7 +66,7 @@ const EditTransaction = ({ transaction, onClose, onSave }) => {
               name="type"
               value={formData.type}
               onChange={handleChange}
-              className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+              className="mt-1 border border-gray-300 rounded-md shadow-sm px-4 py-2 mr-4 focus:ring-blue-500 focus:border-blue-500"
             >
               <option value="Income">Income</option>
               <option value="Expense">Expense</option>
@@ -82,7 +82,7 @@ const EditTransaction = ({ transaction, onClose, onSave }) => {
               name="account"
               value={formData.account}
               onChange={handleChange}
-              className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+              className="mt-1 border border-gray-300 rounded-md shadow-sm px-4 py-2 mr-4 focus:ring-blue-500 focus:border-blue-500"
             >
               <option value="Bank">Bank</option>
               <option value="Cash">Cash</option>
@@ -100,7 +100,7 @@ const EditTransaction = ({ transaction, onClose, onSave }) => {
               name="amount"
               value={formData.amount}
               onChange={handleChange}
-              className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+              className="mt-1 border border-gray-300 rounded-md shadow-sm px-4 py-2 mr-4 focus:ring-blue-500 focus:border-blue-500"
               required
             />
           </div>
@@ -115,7 +115,7 @@ const EditTransaction = ({ transaction, onClose, onSave }) => {
               name="date"
               value={formData.date}
               onChange={handleChange}
-              className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+              className="mt-1 border border-gray-300 rounded-md shadow-sm px-4 py-2 mr-4 focus:ring-blue-500 focus:border-blue-500"
               required
             />
           </div>
