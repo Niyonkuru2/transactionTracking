@@ -5,7 +5,6 @@ const Footer = () => {
     <footer className="bg-gray-900 text-white py-6">
       <div className="container mx-auto px-4">
           {/* Social Media */}
-          <div>
             <h3 className="text-lg font-bold mb-2">Follow Us</h3>
             <div className="flex space-x-4">
               <a href="https://facebook.com" target="_blank" rel="noreferrer">
@@ -21,8 +20,6 @@ const Footer = () => {
                 <FaLinkedin className="h-6 w-6 hover:text-blue-400 transition" />
               </a>
             </div>
-          </div>
-        </div>
 
         {/* Bottom Section */}
         <div className="border-t border-blue-500 mt-6 pt-4 text-center">
