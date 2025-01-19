@@ -19,7 +19,7 @@ const Navbar = () => {
     {/* Mobile Navigation */}
     <div className="flex md:hidden w-full justify-between">
       <p
-        className="cursor-pointer hover:text-blue-300 mr-6"
+        className="cursor-pointer hover:text-blue-300"
         onClick={handleLogout}
       >
         Logout
