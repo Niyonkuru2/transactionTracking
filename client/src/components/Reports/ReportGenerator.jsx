@@ -55,7 +55,7 @@ const ReportGenerator = ({ transactions }) => {
               name="startDate"
               value={filters.startDate}
               onChange={handleFilterChange}
-              className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+              className="mt-1 border border-gray-300 rounded-md shadow-sm px-4 py-2 mr-4 focus:ring-blue-500 focus:border-blue-500"
             />
           </div>
 
@@ -72,7 +72,7 @@ const ReportGenerator = ({ transactions }) => {
               name="endDate"
               value={filters.endDate}
               onChange={handleFilterChange}
-              className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+              className="mt-1 border border-gray-300 rounded-md shadow-sm px-4 py-2 mr-4 focus:ring-blue-500 focus:border-blue-500"
             />
           </div>
 
@@ -88,7 +88,7 @@ const ReportGenerator = ({ transactions }) => {
               name="type"
               value={filters.type}
               onChange={handleFilterChange}
-              className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+              className="mt-1 border border-gray-300 rounded-md shadow-sm px-4 py-2 mr-4 focus:ring-blue-500 focus:border-blue-500"
             >
               <option value="All">All</option>
               <option value="Income">Income</option>
