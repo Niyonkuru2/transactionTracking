@@ -3,7 +3,7 @@
 ---
 
 #### **Project Overview**
-WalletApp is a financial management system designed to help users track income and expenses, manage budgets, and generate reports. The system offers a user-friendly interface with features like transaction categorization, data visualization, and real-time budget notifications.
+WalletApp is a financial management system designed to help users track income and expenses, manage budgets, and generate reports. The system offers a user-friendly interface with features like transaction categorization, data visualization, and notifications depending to Budget Status.
 
 ---
 
