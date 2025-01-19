@@ -12,7 +12,7 @@ const Navbar = () => {
     <nav className="bg-blue-600 text-white shadow-md sticky top-0 z-10">
       <div className="container mx-auto px-4 flex items-center justify-between h-16">
         {/* Logo (Only for Desktop and Laptop) */}
-        <Link to="/" className="hidden lg:block text-lg font-bold mr-6">
+        <Link to="/" className="hidden lg:block text-lg font-bold left-10">
           WalletApp
         </Link>
 
@@ -27,7 +27,7 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Navigation  */}
-        <div className="hidden lg:flex space-x-6">
+        <div className="hidden lg:flex right-4">
           <p
             className="cursor-pointer hover:text-blue-300"
             onClick={handleLogout}
