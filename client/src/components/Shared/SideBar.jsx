@@ -9,7 +9,7 @@ const Sidebar = () => {
     <div className="flex">
       {/* Sidebar */}
       <div
-        className={`bg-blue-700 text-white ${isOpen ? "w-64" : "w-16"} h-screen fixed top-0 left-0 transition-all duration-300 flex flex-col z-50`}
+        className={`bg-blue-700 text-white ${isOpen ? "w-64" : "w-16"} h-screen fixed top-4 left-0 transition-all duration-300 flex flex-col z-50`}
       >
         {/* Toggle Button */}
         <div
