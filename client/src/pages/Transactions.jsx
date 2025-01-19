@@ -101,8 +101,8 @@ const Transactions = () => {
       {/* Transaction Table */}
       <div className="mb-6">
         <h2 className="text-xl font-bold mb-4">Transaction List</h2>
-        <div className="overflow-auto">
-          <table className="min-w-full bg-white shadow-md rounded-lg">
+        <div className="overflow-x-auto">
+          <table className="table-auto border-collapse border border-gray-300 w-full">
             <thead>
               <tr className="bg-gray-200 text-gray-600 uppercase text-sm leading-normal">
                 <th className="py-3 px-6 text-left">Date</th>
