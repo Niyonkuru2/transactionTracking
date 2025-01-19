@@ -12,7 +12,7 @@ const Navbar = () => {
    <nav className="bg-blue-600 text-white shadow-md sticky top-0 z-10">
   <div className="container mx-auto px-6 flex items-center justify-between h-16">
     {/* Logo (Only for Desktop and Laptop) */}
-    <Link to="/" className="hidden lg:block text-lg font-bold ml-12">
+    <Link to="/" className="hidden lg:block text-lg font-bold ml-24">
       WalletApp
     </Link>
 
