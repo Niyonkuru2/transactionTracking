@@ -26,6 +26,7 @@ WalletApp is a financial management system designed to help users track income a
 
 5. **User Authentication**
    - Secure login and registration with JWT-based authentication.
+   -Resettibg password once user forget it
 
 6. **Mobile-Friendly Design**
    - Responsive UI optimized for all screen sizes.
@@ -54,7 +55,7 @@ WalletApp is a financial management system designed to help users track income a
 ##### **Steps**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/WalletApp.git
+   git clone https://github.com/Niyonkuru2/transactionTracking.git
    cd WalletApp
    ```
 
@@ -74,9 +75,14 @@ WalletApp is a financial management system designed to help users track income a
    npm run dev
    ```
 
-4. Access the application:
+4. Access the application In Development Mode:
    - Frontend: [http://localhost:5173](http://localhost:5173)
-   - Backend: [http://localhost:5000](http://localhost:5000)
+   - Backend: [http://localhost:8439](http://localhost:8439)
+
+
+5. Access The Application In Production Mode:
+   -Frontend Hosted On Render [https://transactiontracking-frontend.onrender.com]
+   - Backend Server On Render [https://transactiontracking.onrender.com]
 
 #### **API Endpoints**
 
