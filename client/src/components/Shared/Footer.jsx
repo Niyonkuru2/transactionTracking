@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Links */}
           <div className="mb-4 md:mb-0">
             <h3 className="text-lg font-bold mb-2">Links</h3>
-            <ul>
+            <ul className="ml-4">
               <li className="mb-1">
                 <a href="/" className="hover:underline">
                   Dashboard
