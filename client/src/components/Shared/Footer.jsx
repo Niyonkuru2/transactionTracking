@@ -4,30 +4,6 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-6">
       <div className="container mx-auto px-4">
-        {/* Top Section */}
-        <div className="flex flex-col md:flex-row justify-between items-center">
-          {/* Links */}
-          <div className="mb-4 md:mb-0">
-            <h3 className="text-lg font-bold mb-2">Links</h3>
-            <ul className="ml-4">
-              <li className="mb-1">
-                <a href="/" className="hover:underline">
-                  Dashboard
-                </a>
-              </li>
-              <li className="mb-1">
-                <a href="/transactions" className="hover:underline">
-                  Transactions
-                </a>
-              </li>
-              <li className="mb-1">
-                <a href="/reports" className="hover:underline">
-                  Reports
-                </a>
-              </li>
-            </ul>
-          </div>
-
           {/* Social Media */}
           <div>
             <h3 className="text-lg font-bold mb-2">Follow Us</h3>
