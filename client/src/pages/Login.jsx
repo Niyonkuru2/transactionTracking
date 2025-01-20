@@ -40,7 +40,7 @@ const Login = () => {
     try {
       const response = await axios.post(`${import.meta.env.VITE_BACKEND_URL}/api/user/request-reset-password`, { email: resetEmail });
       if (response.data.success) {
-        toast.success(response.message);
+        toast.success("Rest Link Sent To your Email");
         setIsModalOpen(false);
         setFormData({email: "" });
       } else {
@@ -157,7 +157,7 @@ const Login = () => {
                 onClick={handlePasswordReset}
                 className="py-2 px-4 bg-blue-500 text-white rounded-md hover:bg-blue-600"
               >
-                Send Reset Link
+                Request Reset Link
               </button>
             </div>
           </div>
